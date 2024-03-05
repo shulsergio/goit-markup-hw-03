@@ -246,6 +246,8 @@ letter-spacing: 0.02em;
 /* --footer */
 .footer{
 background-color: var(--navy-blue);
+height: 312px;
+padding-top: 100px;
 }
 .footer-company-logo{
     line-height: 1.17;
@@ -255,7 +257,6 @@ background-color: var(--navy-blue);
     font-size: 18px;
     font-weight: bold;
     color: #4d5ae5;
-
 }
 .footer-company-logo-span {
     color: #f4f4fd;
@@ -264,4 +265,5 @@ background-color: var(--navy-blue);
 line-height: 1.5;
 color: #F4F4FD;
 letter-spacing: 0.02em;
+margin-top: 24px;
 }
