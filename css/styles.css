@@ -112,8 +112,8 @@ gap: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     padding-top: 188px;
-    padding-left: auto;
-padding-right: auto;
+    margin-left: auto;
+margin-right: auto;
 }
 .button{
 margin-top: 48px;
