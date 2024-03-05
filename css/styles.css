@@ -104,7 +104,7 @@ gap: 40px;
     
 }
 
-.section-header-name{
+.hero-header-name{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -115,6 +115,12 @@ gap: 40px;
     margin-left: auto;
 margin-right: auto;
 }
+/* .sec-hero{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    gap: 48px;
+} */
 .button{
     margin-top: 48px;
     text-align: center;
@@ -128,18 +134,30 @@ margin-right: auto;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-
-
 }
+
 .button-order:hover,
 .button-order:focus {
     background-color: var(--ocean);
 
 }
 /* -- sec 2 */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .strategy-list{
     font-style: normal;
+    display: flex;
 }
 .sections-two-headers{
 color: var(--navy-blue);
