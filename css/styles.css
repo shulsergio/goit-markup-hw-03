@@ -20,6 +20,8 @@ ul, ol {
     margin-bottom: 0;
     padding-left: 0;
 }
+
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
@@ -121,18 +123,10 @@ padding: 188px 0;
 max-width: 496px;
 margin: 0 auto 48px;
 }
-/* .sec-hero{
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
-    gap: 48px;
-} */
-/* .button{
-    margin-top: 48px;
-    text-align: center;
-    
-} */
+
 .button-order{
+
+    display: flex;
     cursor: pointer;
     background-color: var(--iris);
     font-weight: 500;
